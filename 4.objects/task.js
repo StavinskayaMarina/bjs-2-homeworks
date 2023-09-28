@@ -8,7 +8,7 @@ function Student(name, gender, age) {
 Student.prototype.setSubject = function(subjectName) {
 	this.subject = subjectName;
 }
-
+ 
 Student.prototype.addMarks = function(...marks) {
 	if (this.hasOwnProperty("marks")) {
 		this.marks.push(...marks);
