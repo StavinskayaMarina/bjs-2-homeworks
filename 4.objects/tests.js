@@ -39,7 +39,7 @@ describe("Домашнее задание к занятию 4 «Объекты»
 
     student.marks = [3, 4, 5];
     expect(student.getAverage()).toEqual(4);
-  });
+  }); 
 
   it("Отчисление студента работает корректно", () => {
     let student = new Student("Василиса", "женский", 19);
